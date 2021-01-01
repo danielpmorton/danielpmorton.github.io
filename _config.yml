@@ -2,7 +2,7 @@
 title:              Daniel Morton
 bio:                'Welcome to my personal website'
 description:        "Click on the links for more info"
-reading_time:       true
+reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/pic.png'
 background:         'assets/img/willard.jpg'
