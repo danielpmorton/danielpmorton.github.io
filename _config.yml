@@ -8,7 +8,7 @@ logo:               'assets/img/pic.png'
 background:         'assets/img/willard.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://danielpmorton.github.io
+#url:                https://danielpmorton.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -50,7 +50,7 @@ linkedin:           danielpmorton
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
