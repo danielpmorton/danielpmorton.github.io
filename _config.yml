@@ -1,7 +1,7 @@
 # Site
 title:              Daniel Morton
 bio:                'Welcome to my personal website'
-# description:        "Moon is a minimal, one column jekyll theme for your blog."
+description:        "Click on the links for more info"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/pic.png'
