@@ -13,7 +13,7 @@ comments: false
     https://user-images.githubusercontent.com/40682860/103447394-c2904580-4c58-11eb-9cd9-3cf0534ba927.png
     https://user-images.githubusercontent.com/40682860/103447388-b1473900-4c58-11eb-941a-4132415f214b.png
 {% endcapture %}
-{% include gallery images= cols=1 %}
+{% include gallery images=images cols=1 %}
 
 See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
