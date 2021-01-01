@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About Me
-<!---tags: [about, Jekyll, theme, moon]
-date: 2016-03-21 -->
+tags: [about, experience]
+date: 2021-01-01
 comments: false
 ---
 
@@ -13,7 +13,7 @@ comments: false
     https://user-images.githubusercontent.com/40682860/103447394-c2904580-4c58-11eb-9cd9-3cf0534ba927.png
     https://user-images.githubusercontent.com/40682860/103447388-b1473900-4c58-11eb-941a-4132415f214b.png
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+{% include gallery images= cols=1 %}
 
 See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
