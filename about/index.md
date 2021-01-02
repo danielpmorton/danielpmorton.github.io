@@ -11,7 +11,7 @@ Hi, my name is Dan and I'm a senior at Cornell University studying mechanical an
 Outside of work/school, I love to golf, ski, and play tennis, and lately I've been exploring how to build and repair watches. 
 
 Feel free to scroll through my page and view some of the <a href="/projects">projects</a> I've worked on! (Note that I can't share everything from my internships)
-
+<br/><br/>
 
 <img src="/assets/img/cornell.png" style="max-height:200px; max-width: 100%; height: auto; width: auto;">
 <center>B.S. Mechanical and Aerospace Engineering, 2021 </center>
