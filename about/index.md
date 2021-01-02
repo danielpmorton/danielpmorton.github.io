@@ -19,6 +19,7 @@ comments: false
 <figure>
 	<img src="/assets/img/cornell.png" width="200">
 </figure>
+<img src="/assets/img/cornell.png" width="200">
 <center>B.S. Mechanical and Aerospace Engineering, 2021 </center>
 
 
