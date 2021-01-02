@@ -9,10 +9,20 @@ comments: false
 project: true
 ---
 
-text
-text
-text
+During the 2019 CubeCraze challenge, opposing teams' robots had to collect a number of wooden cubes from a competition board and bring them back to their sides, making sure they had the greatest number at the end of 60 seconds. Our strategy was to use a winch-controlled gate to collect these cubes to our side, then returning to the opponent's side to push their blocks off the board. 
 
+(add more info here)
+
+{% capture images %}
+	![Front](/assets/img/3780/front.png)
+    ![Rear](/assets/img/3780/rear.png)
+    ![Side](/assets/img/3780/side.png)
+    ![Winch](/assets/img/3780/winch.png)
+{% endcapture %}
+{% include gallery images=images caption="captionhere" cols=3 %}
+
+
+![Strategy](/assets/img/3780/3780strategy.jpg)
 
 ## Media
 
