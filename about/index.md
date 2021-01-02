@@ -9,7 +9,7 @@ comments: false
 <img src="/assets/img/cornell.png" style="height: 200px;">
 <center>B.S. Mechanical and Aerospace Engineering, 2021 </center>
 
-<img src="/assets/img/organicroboticslab.png" style="height: 200px;">
+<img src="/assets/img/organicroboticslab.png" style="width: 100%; height: auto;">
 <center>Undergraduate Researcher, 2018 - present </center>
 
 <img src="/assets/img/nasa.png" style="height: 200px;">
