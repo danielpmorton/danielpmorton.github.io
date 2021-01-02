@@ -9,10 +9,11 @@ comments: false
 project: true
 ---
 
-text
-text
-text
+During the Fall 2020 semester, we were tasked with coming up with a product to "help improve the social distancing experience, so that people don't just get by, but thrive". 
 
+Over three and a half months, my team conducted interviews and fieldwork to gain an understanding of the problems people are facing during COVID, and eventually decided to target students and working professionals. From over 100 brainstormed ideas, we decided to produce an integrated backpack/chair/desk which intended to promote productivity while allowing users to enjoy the outdoors and experience a change in environment. After four major prototypes (mockups, CAD, and physical), our final design integrated all of our targeted features while still remining sturdy, easy to use, and manufacturable. 
+
+More information is provided in the linked report below the pictures, including financial, market, legal, and environmental analyses. 
 
 ## Media
 
