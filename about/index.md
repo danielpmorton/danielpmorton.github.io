@@ -15,6 +15,14 @@ comments: false
 {% endcapture %}
 {% include gallery images=images cols=2 %}
 
+
+<figure>
+	<img src="/assets/img/cornell">
+	<figcaption>B.S. Mechanical and Aerospace Engineering, 2021 </figcaption>
+</figure>
+
+
+
 text
 
 ## Volunteering
