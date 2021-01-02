@@ -19,17 +19,22 @@ During the 2019 CubeCraze challenge, opposing teams' robots had to collect a num
     <figcaption>Caption describing these two images.</figcaption>
 </figure>
 
-figure class half above
-capture images below
+<figure class="half">
+    <a href="/assets/img/3780/side.png"><img src="/assets/img/3780/side.png"></a>
+    <a href="/assets/img/3780/winch.png"><img src="/assets/img/3780/winch.png"></a>
+    <figcaption>Caption describing these two images.</figcaption>
+</figure>
 
-{% capture images %}
+
+testing with all four in a figure below
+
+<figure class="half">
     <a href="/assets/img/3780/front.png"><img src="/assets/img/3780/front.png"></a>
     <a href="/assets/img/3780/rear.png"><img src="/assets/img/3780/rear.png"></a>
     <a href="/assets/img/3780/side.png"><img src="/assets/img/3780/side.png"></a>
     <a href="/assets/img/3780/winch.png"><img src="/assets/img/3780/winch.png"></a>
-{% endcapture %}
-{% include gallery images=images caption="captionhere" cols=2 %}
-
+    <figcaption>Caption describing these 4 images.</figcaption>
+</figure>
 
 ![Strategy](/assets/img/3780/3780strategy.jpg)
 ![Front](/assets/img/3780/front.png)
