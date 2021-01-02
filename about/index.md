@@ -23,8 +23,5 @@ text
 
 ## Activities
 
-## Resume
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Resume](/pdfs/Daniel_Morton_Resume.pdf){: .btn}
+text
+text
