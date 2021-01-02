@@ -16,7 +16,6 @@ During the 2019 CubeCraze challenge, opposing teams' robots had to collect a num
 <figure class="half">
     <a href="/assets/img/3780/front.png"><img src="/assets/img/3780/front.png"></a>
     <a href="/assets/img/3780/rear.png"><img src="/assets/img/3780/rear.png"></a>
-    <figcaption>Caption describing these two images.</figcaption>
 </figure>
 
 <figure class="half">
@@ -31,16 +30,13 @@ testing with all four in a figure below
 <figure class="half">
     <a href="/assets/img/3780/front.png"><img src="/assets/img/3780/front.png"></a>
     <a href="/assets/img/3780/rear.png"><img src="/assets/img/3780/rear.png"></a>
-    <a href="/assets/img/3780/side.png"><img src="/assets/img/3780/side.png"></a>
     <a href="/assets/img/3780/winch.png"><img src="/assets/img/3780/winch.png"></a>
+    <a href="/assets/img/3780/side.png"><img src="/assets/img/3780/side.png"></a>
     <figcaption>Caption describing these 4 images.</figcaption>
 </figure>
 
 ![Strategy](/assets/img/3780/3780strategy.jpg)
-![Front](/assets/img/3780/front.png)
-    ![Rear](/assets/img/3780/rear.png)
-    ![Side](/assets/img/3780/side.png)
-    ![Winch](/assets/img/3780/winch.png)
+
 
 
 ## Media
