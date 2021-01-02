@@ -14,15 +14,20 @@ During the 2019 CubeCraze challenge, opposing teams' robots had to collect a num
 (add more info here)
 
 {% capture images %}
-	![Front](/assets/img/3780/front.png)
-    ![Rear](/assets/img/3780/rear.png)
-    ![Side](/assets/img/3780/side.png)
-    ![Winch](/assets/img/3780/winch.png)
+    <img src="/assets/img/3780/front.png">
+    <img src="/assets/img/3780/rear.png">
+    <img src="/assets/img/3780/side.png">
+    <img src="/assets/img/3780/winch.png">
 {% endcapture %}
-{% include gallery images=images caption="captionhere" cols=3 %}
+{% include gallery images=images caption="captionhere" cols=2 %}
 
 
 ![Strategy](/assets/img/3780/3780strategy.jpg)
+![Front](/assets/img/3780/front.png)
+    ![Rear](/assets/img/3780/rear.png)
+    ![Side](/assets/img/3780/side.png)
+    ![Winch](/assets/img/3780/winch.png)
+
 
 ## Media
 
