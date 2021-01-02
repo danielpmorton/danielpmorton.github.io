@@ -10,15 +10,15 @@ comments: false
 <center>B.S. Mechanical and Aerospace Engineering, 2021 </center>
 
 
-<img src="/assets/img/orl.png" style="max-height:200px; max-width: 100%; height: auto; width: auto;">
+<img src="/assets/img/orl.png" style="max-height:150px; max-width: 100%; height: auto; width: auto;">
 <center>Undergraduate Researcher, 2018 - present </center>
 
 
-<img src="/assets/img/nasa.png" style="max-height:150px; max-width: 100%; height: auto; width: auto;">
+<img src="/assets/img/nasa.png" style="max-height:100px; max-width: 100%; height: auto; width: auto;">
 <center>Propulsion Research & Technology Intern, 2020 </center>
 
 
-<img src="/assets/img/boeing.png" style="max-height:150px; max-width: 100%; height: auto; width: auto;">
+<img src="/assets/img/boeing.png" style="max-height:100px; max-width: 100%; height: auto; width: auto;">
 <center>Product Development Intern, 2019 </center>
 
 
