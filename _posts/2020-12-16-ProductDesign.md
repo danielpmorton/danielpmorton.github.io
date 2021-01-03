@@ -22,7 +22,12 @@ More information is provided in the linked report below the pictures, including 
     <a href="/assets/img/4340/rearIso.png"><img src="/assets/img/4340/rearIso.png"></a>
 </figure>
 <a href="/assets/img/4340/deployed.png"><img src="/assets/img/4340/deployed.png"></a>
-<a href="/assets/img/4340/animation.mp4"><video autoplay source src="/assets/img/4340/animation.mp4" type="video/mp4" ></video>
+<a href="/assets/img/4340/animation.mp4"><video autoplay source src="/assets/img/4340/animation.mp4" type="video/mp4" style="max-width: 100%; height: auto; width: auto;"></video>
+
+new test below
+
+<iframe width="560" height="315" src="/assets/img/4340/animation.mp4" frameborder="0"> </iframe>
+
 
 ## Report
       
