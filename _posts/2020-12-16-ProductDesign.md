@@ -23,7 +23,7 @@ More information is provided in the linked report below the pictures, including 
 </figure>
 <a href="/assets/img/4340/deployed.png"><img src="/assets/img/4340/deployed.png"></a>
 <a href="/assets/img/4340/animation.mp4"><video autoplay source src="/assets/img/4340/animation.mp4" type="video/mp4" style="max-width: 100%; height: auto; width: auto;"></video>
-
+> If autoplay is not supported in your browser, click on the above video to play
 
 ## Report
       
