@@ -32,11 +32,17 @@ More information is provided in the linked report below the pictures, including 
 
 ## Additional Product
 
-text
-text
-text
-media
-media
-media
+I also completed an additional product which served as a cross-over between my research in the Organic Robotics Lab and this class - seeking to answer the question of "can we use additive manufacturing of soft lattices with embedded sensing in a consumer product"?
+
+So, to stay aligned with the market my team identified for the backpack, I decided to use this technology in a high-end smart seat cushion, which is able to sense how the user is seated and alert them if they are in a non-ergonomic position. When pressure is applied to the lattice cushion, it deforms and causes the light guides (soft optical fibers) to press against eachother, causing a redistribution in the light passed through these guides. This distribution changes based on the location and amount of pressure, to accurately detect the seating position. Alerts are provided through vibration motors connected to the front of the cushion. 
+
+<figure class="half">
+    <a href="/assets/img/4341/bottom.png"><img src="/assets/img/4341/bottom.png"></a>
+    <a href="/assets/img/4341/top.png"><img src="/assets/img/4341/top.png"></a>
+    <a href="/assets/img/4341/FEA.png"><img src="/assets/img/4341/FEA.png"></a>
+    <a href="/assets/img/4341/fields.PNG"><img src="/assets/img/4341/fields.PNG"></a>
+</figure>
+<a href="/assets/img/4341/animation.mp4"><video autoplay source src="/assets/img/4341/animation.mp4" type="video/mp4" style="max-width: 100%; height: auto; width: auto;"></video>
+> If autoplay is not supported in your browser, click on the above video to play
 
 [Access the additional PDF](/pdfs/4341addition.pdf){: .btn}
