@@ -3,7 +3,6 @@ layout: post
 title: "Testing Readability with a Bunch of Text"
 date: 2012-05-22
 excerpt: "A ton of text to test readability."
-tags: [sample post, readability, test]
 feature: https://user-images.githubusercontent.com/40682860/103447470-b658b800-4c59-11eb-89d8-ac01760d7504.png
 comments: true
 ---
