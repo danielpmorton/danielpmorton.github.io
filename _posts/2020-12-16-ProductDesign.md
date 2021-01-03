@@ -20,10 +20,9 @@ More information is provided in the linked report below the pictures, including 
 <figure class="half">
     <a href="/assets/img/4340/frontIso.png"><img src="/assets/img/4340/frontIso.png"></a>
     <a href="/assets/img/4340/rearIso.png"><img src="/assets/img/4340/rearIso.png"></a>
-    <a href="/assets/img/4340/deployed.png"><img src="/assets/img/4340/deployed.png"></a>
-    <a href="/assets/img/4340/animation.mp4"><video autoplay source src="/assets/img/4340/animation.mp4" type="video/mp4" ></video>
 </figure>
-
+<a href="/assets/img/4340/deployed.png"><img src="/assets/img/4340/deployed.png"></a>
+<a href="/assets/img/4340/animation.mp4"><video autoplay source src="/assets/img/4340/animation.mp4" type="video/mp4" ></video>
 
 ## Report
       
