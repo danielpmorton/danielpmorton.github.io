@@ -9,12 +9,14 @@ comments: false
 project: true
 ---
 
-text
-text
-text
+TPMS (Triply-Periodic Minimal Surface) lattices are unique in that they can be modeled by a single equation in 3D space, with surfaces defined as every location within the design boundary where the implicit function equals some isovalue (typically equal to 0). An interesting property of these is that when fluid is passed through the structure, these have a very high surface area to pressure drop ratio - meaning, as the flow passes through a TPMS lattice, it experienced minimal resistance yet is highly likely to encounter a surface boundary. This is incredibly useful for both particle filtration and heat exchange, and particularly for heat exchangers, these structures can be modified to include multiple interwoven bifurcating fluid domains. 
+
+<a href="/assets/img/tpms/eqns.png"><img src="/assets/img/tpms/eqns.png"></a>
+<caption>Equations for the three main types of TPMS lattices I work with<\caption>
+
 
 ## Heat Exchangers
-<a href="/assets/img/tpms/eqns.png"><img src="/assets/img/tpms/eqns.png"></a>
+
 <figure class="half">
     <a href="/assets/img/tpms/hx.png"><img src="/assets/img/tpms/hx.png"></a>
     <a href="/assets/img/tpms/anim.gif"><img src="/assets/img/tpms/anim.gif"></a>
