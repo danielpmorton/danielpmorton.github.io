@@ -20,9 +20,10 @@ TPMS (Triply-Periodic Minimal Surface) lattices are unique in that they can be m
     <a href="/assets/img/tpms/hx.png"><img src="/assets/img/tpms/hx.png"></a>
     <a href="/assets/img/tpms/anim.gif"><img src="/assets/img/tpms/anim.gif"></a>
 </figure>
-<a href="/assets/img/tpms/vfield.png"><img src="/assets/img/tpms/vfield.png"></a>
-
 > Example of a cross-flow heat exchanger modeled in COMSOL. TPMS type: Schwarz, with a 001-111 vector rotation
+
+<a href="/assets/img/tpms/vfield.png"><img src="/assets/img/tpms/vfield.png"></a>
+> Z-component velocity field slice in COMSOL for the two counter-flow fluid domains
 
 ## General Structures
 
