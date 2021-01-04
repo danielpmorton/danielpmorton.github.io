@@ -14,6 +14,21 @@ text
 text
 
 ## Media
+<a href="/assets/img/tpms/eqns.png"><img src="/assets/img/tpms/eqns.png"></a>
+<figure class="half">
+    <a href="/assets/img/tpms/hx.png"><img src="/assets/img/tpms/hx.png"></a>
+    <a href="/assets/img/tpms/anim.gif"><img src="/assets/img/tpms/anim.gif"></a>
+</figure>
+<a href="/assets/img/tpms/vfield.png"><img src="/assets/img/tpms/vfield.png"></a>
+<figure class="half">
+    <a href="/assets/img/tpms/d001.png"><img src="/assets/img/tpms/d001.png"></a>
+    <a href="/assets/img/tpms/g110.png"><img src="/assets/img/tpms/g110.png"></a>
+    <a href="/assets/img/tpms/d111.png"><img src="/assets/img/tpms/d111.png"></a>
+    <a href="/assets/img/tpms/s111.png"><img src="/assets/img/tpms/s111.png"></a>
+    <a href="/assets/img/tpms/alt.png"><img src="/assets/img/tpms/alt.png"></a>
+</figure>
+
+
 
 media
 media 
