@@ -27,6 +27,10 @@ TPMS (Triply-Periodic Minimal Surface) lattices are unique in that they can be m
 
 ## General Structures
 
+A key focus was generating these structures so that the flow bifurcates, rather than passing directly through. While there are many more types of TPMS and countless modifications that can be made, these images below represent the ones that both bifurcate and are most likely to be 3D-printable. 
+
+Here, blue represents a solid feature, and shades of pink represent the fluid domains. Flow is oriented so it passes from top to bottom. Some TPMS structures are rotated such that the flow direction is aligned with the vector of the highest bifurcation.
+
 <figure class="half">
     <a href="/assets/img/tpms/d001.png"><img src="/assets/img/tpms/d001.png"></a>
     <a href="/assets/img/tpms/g110.png"><img src="/assets/img/tpms/g110.png"></a>
@@ -42,7 +46,7 @@ TPMS (Triply-Periodic Minimal Surface) lattices are unique in that they can be m
 <figure class="half">
     <a href="/assets/img/tpms/alt.png"><img src="/assets/img/tpms/alt.png"></a>
 </figure>
-> Alternate custom TPMS design with two solid and two fluid domains, for very high surface areas
+> Alternate custom TPMS design with two solid and two fluid domains, for very high surface areas at the expense of being more difficult to manufacture
 
 ## Filter Cartridges
 
