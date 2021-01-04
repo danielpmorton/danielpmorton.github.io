@@ -31,6 +31,8 @@ text
 <figure class="half">
     <a href="/assets/img/tpms/d001filter.png"><img src="/assets/img/tpms/d001filter.png"></a>
     <a href="/assets/img/tpms/g110filter.png"><img src="/assets/img/tpms/g110filter.png"></a>
+</figure>
+<figure class="half">
     <a href="/assets/img/tpms/d111filter.png"><img src="/assets/img/tpms/d111filter.png"></a>
     <a href="/assets/img/tpms/s111filter.png"><img src="/assets/img/tpms/s111filter.png"></a>
 </figure>
