@@ -68,4 +68,4 @@ Below are some images of the cartridge prototypes we printed and tested, using v
 
 ## Additional Info
 
-Please contact me if you would like to know more about these and how they were modeled. Or, <a href="https://github.com/danielpmorton/TPMS-Modeler">check out my "TPMS Modeler" repository on Github</a>
+Please contact me if you would like to know more about these and how they were modeled. Or, <a href="https://github.com/danielpmorton/TPMS-Modeler">check out my "TPMS Modeler" repository on GitHub</a>
