@@ -50,6 +50,10 @@ Here, blue represents a solid feature, and shades of pink represent the fluid do
 
 ## Filter Cartridges
 
+Face masks for COVID often have shortcomings in either their availability, fit to the user’s face, or effectiveness of filtration. A group at Cornell was looking to create 3D-printable custom face masks to improve some of these issues, and they wanted to take inspiration from the bifurcating structures in animal noses to design novel printable filters. Having worked with similar structures in the past, I joined their team and developed a lattice-based filter which can be easily printable using a variety of printing technologies (FDM, SLA, DLS…), which redirects flow through various copper-infused cleaning elements at 50% less pressure drop (the amount of force it takes to breathe through) compared with their other designs.
+
+Below are some images of the cartridge prototypes we printed and tested, using various types of TPMS lattices:
+
 <figure class="half">
     <a href="/assets/img/tpms/d001filter.png"><img src="/assets/img/tpms/d001filter.png"></a>
     <a href="/assets/img/tpms/g110filter.png"><img src="/assets/img/tpms/g110filter.png"></a>
