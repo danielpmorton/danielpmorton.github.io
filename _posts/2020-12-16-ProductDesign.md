@@ -11,7 +11,7 @@ project: true
 
 During the Fall 2020 semester, we were tasked with coming up with a product to "help improve the social distancing experience, so that people don't just get by, but thrive". 
 
-Over three and a half months, my team conducted interviews and fieldwork to gain an understanding of the problems people are facing during COVID, and eventually decided to target students and working professionals. From over 100 brainstormed ideas, we decided to produce an integrated backpack/chair/desk which intended to promote productivity while allowing users to enjoy the outdoors and experience a change in environment. After four major prototypes (mockups, CAD, and physical), our final design integrated all of our targeted features while still remining sturdy, easy to use, and manufacturable. 
+Over three and a half months, my team conducted interviews and fieldwork to gain an understanding of the problems people are facing during COVID, and eventually decided to target students and working professionals. From over 100 brainstormed ideas, we decided to produce an integrated backpack/chair/desk with the intent of promoting productivity while allowing users to enjoy the outdoors and experience a change in environment. After four major prototypes (mockups, CAD, and physical), our final design integrated all of our targeted features while still remaining sturdy, easy to use, and manufacturable. 
 
 More information is provided in the linked report below the pictures, including financial, market, legal, and environmental analyses. 
 
@@ -39,9 +39,17 @@ So, to stay aligned with the market my team identified for the backpack, I decid
 <figure class="half">
     <a href="/assets/img/4341/bottom.png"><img src="/assets/img/4341/bottom.png"></a>
     <a href="/assets/img/4341/top.png"><img src="/assets/img/4341/top.png"></a>
-    <a href="/assets/img/4341/FEA.png"><img src="/assets/img/4341/FEA.png"></a>
-    <a href="/assets/img/4341/fields.PNG"><img src="/assets/img/4341/fields.PNG"></a>
 </figure>
+
+> CAD renders of the final lattices (seat cushion and back support) with the light guides routed through the structure.  
+
+<figure class="half">
+    <a href="/assets/img/4341/FEA.png"><img src="/assets/img/4341/FEA.png"></a>
+    <a href="/assets/img/4341/fields.png"><img src="/assets/img/4341/fields.png"></a>
+</figure>
+
+> FEA model (shown: displacement) for the lattice, along with an explanation of how the field approximating the seating pressure distribution was generated. 
+
 <a href="/assets/img/4341/animation.mp4"><video autoplay source src="/assets/img/4341/animation.mp4" type="video/mp4" style="max-width: 100%; height: auto; width: auto;"></video>
 > If autoplay is not supported in your browser, click on the above video to play
 
