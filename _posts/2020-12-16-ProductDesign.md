@@ -21,7 +21,11 @@ More information is provided in the linked report below the pictures, including 
     <a href="/assets/img/4340/frontIso.png"><img src="/assets/img/4340/frontIso.png"></a>
     <a href="/assets/img/4340/rearIso.png"><img src="/assets/img/4340/rearIso.png"></a>
 </figure>
+> Renders of the backpack in the stowed configuration
+
 <a href="/assets/img/4340/deployed.png"><img src="/assets/img/4340/deployed.png"></a>
+> Render of the deployed configuration
+
 <a href="/assets/img/4340/animation.mp4"><video autoplay source src="/assets/img/4340/animation.mp4" type="video/mp4" style="max-width: 100%; height: auto; width: auto;"></video>
 > If autoplay is not supported in your browser, click on the above video to play
 
@@ -40,15 +44,13 @@ So, to stay aligned with the market my team identified for the backpack, I decid
     <a href="/assets/img/4341/bottom.png"><img src="/assets/img/4341/bottom.png"></a>
     <a href="/assets/img/4341/top.png"><img src="/assets/img/4341/top.png"></a>
 </figure>
-
-> CAD renders of the final lattices (seat cushion and back support) with the light guides routed through the structure.  
+> CAD renders of the final lattices (seat cushion and back support) with the light guides routed through the structure
 
 <figure class="half">
     <a href="/assets/img/4341/FEA.png"><img src="/assets/img/4341/FEA.png"></a>
     <a href="/assets/img/4341/fields.png"><img src="/assets/img/4341/fields.png"></a>
 </figure>
-
-> FEA model (shown: displacement) for the lattice, along with an explanation of how the field approximating the seating pressure distribution was generated. 
+> FEA model (shown: displacement) for the lattice, along with an explanation of how the field approximating the seating pressure distribution was generated
 
 <a href="/assets/img/4341/animation.mp4"><video autoplay source src="/assets/img/4341/animation.mp4" type="video/mp4" style="max-width: 100%; height: auto; width: auto;"></video>
 > If autoplay is not supported in your browser, click on the above video to play
