@@ -53,6 +53,6 @@ So, to stay aligned with the market my team identified for the backpack, I decid
 > FEA model (shown: displacement) for the lattice, along with an explanation of how the field approximating the seating pressure distribution was generated
 
 <a href="/assets/img/4341/animation.mp4"><video autoplay source src="/assets/img/4341/animation.mp4" type="video/mp4" style="max-width: 100%; height: auto; width: auto;"></video>
-> If autoplay is not supported in your browser, click on the above video to play
+> Animation of setting up and stowing the chair and desk within the backpack. (If autoplay is not supported in your browser, click on the above video to play)
 
 [Access the additional PDF](/pdfs/4341addition.pdf){: .btn}
