@@ -9,7 +9,7 @@ comments: false
 project: true
 ---
 
-TPMS (Triply-Periodic Minimal Surface) lattices are unique in that they can be modeled by a single equation in 3D space, with surfaces defined as every location within the design boundary where the implicit function equals some isovalue (typically equal to 0). An interesting property of these is that when fluid is passed through the structure, these have a very high surface area to pressure drop ratio - meaning, as the flow passes through a TPMS lattice, it experienced minimal resistance yet is highly likely to encounter a surface boundary. This is incredibly useful for both particle filtration and heat exchange, and particularly for heat exchangers, these structures can be modified to include multiple interwoven bifurcating fluid domains. 
+TPMS (Triply-Periodic Minimal Surface) lattices are unique in that they can be modeled by a single equation in 3D space, with surfaces defined as every location within the design boundary where the implicit function equals some isovalue (typically equal to 0). An interesting property of these is that in fluidic applications, TPMS lattices have a very high surface area to pressure drop ratio - meaning, as the flow passes through the lattice, it experiences minimal resistance yet is highly likely to encounter a surface boundary. This is incredibly useful for both particle filtration and heat exchange, and particularly for heat exchangers, these structures can be modified to include multiple interwoven bifurcating fluid domains. 
 
 <a href="/assets/img/tpms/eqns.png"><img src="/assets/img/tpms/eqns.png"></a>
 > Equations for the three main types of TPMS lattices I work with
@@ -23,13 +23,13 @@ TPMS (Triply-Periodic Minimal Surface) lattices are unique in that they can be m
 > Example of a cross-flow heat exchanger modeled in COMSOL. TPMS type: Schwarz, with a 001-111 vector rotation
 
 <a href="/assets/img/tpms/vfield.png"><img src="/assets/img/tpms/vfield.png"></a>
-> Z-component velocity field slice in COMSOL for the two counter-flow fluid domains
+> Z-component velocity field slices in COMSOL for the two counter-flow fluid domains
 
 ## Unit Cell Geometries
 
-A key focus was generating these structures so that the flow bifurcates, rather than passing directly through the heat exchanger or filter. While there are many more types of TPMS and countless modifications that can be made, these images below represent the ones that both bifurcate and are most likely to be 3D-printable. 
+A key focus was generating these structures so that the flow bifurcates, rather than passing directly through the heat exchanger or filter. While there are many more types of TPMS and countless modifications that can be made, these images below represent the ones that both bifurcate and are most likely to be 3D-printable. Rotating the structure's principal axis (denoted by 001, representing a (0,0,1) normal vector to the XY plane) to other vectors such as (1,1,0) or (1,1,1) allowed for the fluid flow to be passed through the optimal direction for bifurcation. 
 
-Here, blue represents a solid feature, and shades of pink represent the fluid domains. The flow is oriented so it passes from top to bottom, and any number of unit cells can be connected periodically. Some TPMS structures are rotated such that the flow direction is aligned with the vector of the highest bifurcation.
+Here, blue represents a solid feature, and shades of pink represent the fluid domains. The flow is oriented so it passes from top to bottom, and any number of these unit cells can be connected periodically.
 
 <figure class="half">
     <a href="/assets/img/tpms/d001.png"><img src="/assets/img/tpms/d001.png"></a>
