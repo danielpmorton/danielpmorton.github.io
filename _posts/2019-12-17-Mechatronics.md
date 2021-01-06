@@ -21,8 +21,10 @@ I was in charge of nearly all of the electronics and code behind the robot. Sinc
     <a href="/assets/img/3780/winch.png"><img src="/assets/img/3780/winch.png"></a>
     <a href="/assets/img/3780/side.png"><img src="/assets/img/3780/side.png"></a>
 </figure>
+> Annotated pictures of the final robot, "The Big Red Devil"
 
 ![Strategy](/assets/img/3780/3780strategy.jpg)
+> Strategy flowchart
 
 ## Report
       
