@@ -13,12 +13,16 @@ Outside of work/school, I love to golf, ski, and play tennis, and lately I've be
 Feel free to scroll through my page and view some of the <a href="/projects">projects</a> I've worked on! (Note that I can't share everything from my internships)
 <br/><br/>
 
+<img src="/assets/img/stanford.png" style="max-height:200px; max-width: 100%; height: auto; width: auto;">
+<center>M.S. Mechanical Engineering, 2021-2023 </center>
+<br/><br/>
+
 <img src="/assets/img/cornell.png" style="max-height:200px; max-width: 100%; height: auto; width: auto;">
 <center>B.S. Mechanical and Aerospace Engineering, 2021 </center>
 <br/><br/>
 
 <img src="/assets/img/orl.png" style="max-height:150px; max-width: 100%; height: auto; width: auto;">
-<center>Undergraduate Researcher, 2018 - present </center>
+<center>Undergraduate Researcher, 2018 - 2021 </center>
 <br/><br/>
 
 <img src="/assets/img/nasa.png" style="max-height:100px; max-width: 100%; height: auto; width: auto;">
