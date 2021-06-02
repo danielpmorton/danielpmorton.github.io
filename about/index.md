@@ -6,7 +6,7 @@ date: 2021-01-01
 comments: false
 ---
 
-Hi, my name is Dan and I'm a senior at Cornell University studying mechanical and aerospace engineering with an interest in robotics and design. While at school, I work in the <a href="https://orl.mae.cornell.edu/">Organic Robotics Lab</a> under Rob Shepherd, focusing on the design and optimization of soft robotic morphing wings with embedded proprioceptive sensing. I've been quite lucky to have interned at both NASA and Boeing, and I also volunteer as a designer for the medical field. 
+Hi, my name is Dan and I recently graduated from Cornell University, where I studied mechanical and aerospace engineering. In the fall, I'll be headed to Stanford where I'll be getting my Master's with a focus on robotics and autonomy. While at Cornell, I worked in the <a href="https://orl.mae.cornell.edu/">Organic Robotics Lab</a> under Rob Shepherd, focusing on the design and optimization of soft robotic morphing wings with embedded proprioceptive sensing. I've been quite lucky to have interned at both NASA and Boeing, and I also volunteer as a designer for the medical field. 
 
 Outside of work/school, I love to golf, ski, and play tennis, and lately I've been exploring how to build and repair watches. 
 
