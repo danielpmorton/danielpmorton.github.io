@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Autonomous Mobile Robots"
+date: 2021-05-31
+excerpt: "Coursework from MAE 4180 - Autonomous Mobile Robots"
+tags: [coursework, design]
+feature: https://user-images.githubusercontent.com/40682860/103447470-b658b800-4c59-11eb-89d8-ac01760d7504.png
+comments: false
+project: true
+---
+
+description description *UNDER CONSTRUCTION*
+
+
+<a href="/assets/img/amr/roombas.jpg"><img src="/assets/img/amr/roombas.jpg"></a>
+> Physical robots (roombas) used during in-lab testing
+
+## Selected Algorithm Figures
+
+<figure class="half">
+    <a href="/assets/img/amr/potfun1.png"><img src="/assets/img/amr/potfun1.png"></a>
+    <a href="/assets/img/amr/potfun2.png"><img src="/assets/img/amr/potfun2.png"></a>
+</figure>
+> Potential Functions
+
+<figure class="half">
+    <a href="/assets/img/amr/rrt1.png"><img src="/assets/img/amr/rrt1.png"></a>
+    <a href="/assets/img/amr/rrt2.png"><img src="/assets/img/amr/rrt2.png"></a>
+</figure>
+> Rapidly-Exploring Random Trees (RRT)
+
+<a href="/assets/img/amr/dijkstra.png"><img src="/assets/img/amr/dijkstra.png"></a>
+> Dijkstra's algorithm applied to a roadmap generated from a Delaunay triangulation
+
+## Final Competition
+
+<a href="/assets/img/amr/comp_noise.png"><img src="/assets/img/amr/comp_noise.png"></a>
+> Figure showing how well our robot's particle filter handled noise in the depth measurement data
+
+<a href="/assets/img/amr/comp_roadmap.png"><img src="/assets/img/amr/comp_roadmap.png"></a>
+> Roadmap used for the final competition
+
+
+
