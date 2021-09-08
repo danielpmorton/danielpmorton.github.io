@@ -26,6 +26,6 @@ I was in charge of nearly all of the electronics and code behind the robot. Sinc
 ![Strategy](/assets/img/3780/3780strategy.jpg)
 > Strategy flowchart
 
-## Report
+## Report (with code)
       
 [Access the full report PDF](/pdfs/3780.pdf){: .btn}
