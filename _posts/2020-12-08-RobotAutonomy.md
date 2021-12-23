@@ -17,9 +17,11 @@ project: true
     <a href="/assets/img/274/gazebo2.png"><img src="/assets/img/274/gazebo2.png"></a>
 </figure>
 
-<a href="/assets/img/274/rviz.png"><img src="/assets/img/274/rviz.png"></a>
+<a href="/assets/img/274/rviz.png" style="max-height:400px; max-width: 100%; height: auto; width: auto;"><img src="/assets/img/274/rviz.png"></a>
 
 <a href="/assets/img/274/rqt.png"><img src="/assets/img/274/rqt.png"></a>
 
-<a href="/assets/img/274/fsm2.png"><img src="/assets/img/274/fsm2.png"></a>
+<a href="/assets/img/274/fsm2.png" style="max-height:400px; max-width: 100%; height: auto; width: auto;"><img src="/assets/img/274/fsm2.png"></a>
+
+
 
