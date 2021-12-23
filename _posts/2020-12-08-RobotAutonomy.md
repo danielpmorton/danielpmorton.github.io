@@ -11,6 +11,22 @@ project: true
 
 **New post! Under construction**
 
+The final project for AA274A involved a "search and rescue" mission, with the following key criteria:
+- A self-designed map for the robot to explore
+- Implementing SLAM and A* path planning
+- Using three different controllers for following the planned trajectory: 1) aligning the robot in the starting direction of the trajectory; 2) following the A* trajectory; and 3) making small corrections to the final pose to match the target (x, y, theta)
+- Implementing CNN-based object recognition with TensorFlow
+- Using LIDAR scans to detect the walls of the map and fill in a stochastic occupancy grid
+
+This involved two stages: 
+First: Explore the world, view all areas of the map, and record the locations of the objects
+Second: After being provided a list of 2-3 objects that need to be "rescued", navigate back to them, stop nearby, and then return back to the "home" position 
+
+Our team successfully completed the mission and added in extra functionality including:
+- Detecting and stopping at stop signs
+- Visualizing our planned waypoints and rescue locations as map markers
+- Visualizing the camera field of view
+- Adding a bonus visualization/decoration with the AA274 class name
 
 <figure class="half">
     <a href="/assets/img/274/gazebo1.png"><img src="/assets/img/274/gazebo1.png"></a>
@@ -18,7 +34,6 @@ project: true
 </figure>
 
 Screenshots from Gazebo - the robot traversing our 3D environment
-
 
 <a href="/assets/img/274/rviz.png"><img src="/assets/img/274/rviz.png" style="max-height:300px; max-width: 100%; height: auto; width: auto;"></a>
 
