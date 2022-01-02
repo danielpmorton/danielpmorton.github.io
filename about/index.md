@@ -2,13 +2,13 @@
 layout: page
 title: About Me
 tags: [about, experience]
-date: 2021-01-01
+date: 2022-01-01
 comments: false
 ---
 
-Hi, my name is Dan and I recently graduated from Cornell University, where I studied mechanical and aerospace engineering. In the fall, I'll be headed to Stanford where I'll be getting my Master's with a focus on robotics and autonomy. While at Cornell, I worked in the <a href="https://orl.mae.cornell.edu/">Organic Robotics Lab</a> under Rob Shepherd, focusing on the design and optimization of soft robotic morphing wings with embedded proprioceptive sensing. I've been quite lucky to have interned at both NASA and Boeing, and I also volunteer as a designer for the medical field. 
+Hello, my name is Dan and I'm a current graduate student at Stanford, where I'm studying mechanical engineering with a focus on robotics and autonomy. Previous to Stanford, I did my undergrad at Cornell, and spent a large fraction of my time there working in the <a href="https://orl.mae.cornell.edu/">Organic Robotics Lab</a> under Rob Shepherd, focusing on the design and optimization of soft robotic morphing wings with embedded proprioceptive sensing. In addition, I've been quite lucky to have interned at both Boeing and NASA, where I worked on airplane cabin product development as well as nuclear propulsion technologies. Whenever possible, I also enjoy keeping an eye out for interesting opportunities to apply my engineering experience for the medical field, primarily in volunteer roles. 
 
-Outside of work/school, I love to golf, ski, and play tennis, and lately I've been exploring how to build and repair watches. 
+Outside of work/school, I love to golf, ski, and play tennis. Lately, I've also been enjoying solving interesting math puzzles, and have been exploring how to build and repair watches. I also make a mean tiramisu (and I'm always on the hunt for great pastries and recipes). 
 
 Feel free to scroll through my page and view some of the <a href="/projects">projects</a> I've worked on! (Note that I can't share everything from my internships)
 <br/><br/>
