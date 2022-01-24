@@ -9,6 +9,8 @@ comments: false
 project: true
 ---
 
+# AA 274A / CS 237A
+
 The final project for AA274A involved a "search and rescue" mission, with the following key criteria:
 - A self-designed map for the robot to explore
 - Implementing SLAM and A* path planning
@@ -47,5 +49,14 @@ An RQT visualization of the ROS computation graph. Some of the key nodes include
 <a href="/assets/img/274/fsm2.png"><img src="/assets/img/274/fsm2.png" style="max-height:300px; max-width: 100%; height: auto; width: auto;"></a>
 
 A diagram showing the primary states and transitions of our finite state machine (FSM) which controlled the behavior of the robot. 
+
+# AA 274B / CS237B
+
+As of January 23rd, we're only a few weeks into the second part of this course, but we've already extensively looked into image recognition via convolutional neural networks in TensorFlow. Coming soon: manipulation, human interaction, and system architectures!
+
+<figure class="half">
+    <a href="/assets/img/274/conv.png"><img src="/assets/img/274/conv.png"></a>
+    <a href="/assets/img/274/saliency.png"><img src="/assets/img/274/saliency.png"></a>
+</figure>
 
 
