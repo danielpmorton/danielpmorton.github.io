@@ -54,9 +54,5 @@ A diagram showing the primary states and transitions of our finite state machine
 
 As of January 23rd, we're only a few weeks into the second part of this course, but we've already extensively looked into image recognition via convolutional neural networks in TensorFlow. Coming soon: manipulation, human interaction, and system architectures!
 
-<figure class="half">
-    <a href="/assets/img/274/conv.png"><img src="/assets/img/274/conv.png"></a>
-    <a href="/assets/img/274/saliency.png"><img src="/assets/img/274/saliency.png"></a>
-</figure>
-
+<a href="/assets/img/274/combined.png"><img src="/assets/img/274/combined.png"></a>
 
