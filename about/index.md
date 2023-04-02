@@ -2,33 +2,18 @@
 layout: page
 title: About Me
 tags: [about, experience]
-date: 2022-01-01
+date: 2023-01-01
 comments: false
 ---
 
-Hello, my name is Dan and I'm a current graduate student at Stanford, where I'm studying mechanical engineering with a focus on robotics and autonomy. Previous to Stanford, I did my undergrad at Cornell, and spent a large fraction of my time there working in the <a href="https://orl.mae.cornell.edu/">Organic Robotics Lab</a> under Rob Shepherd, focusing on the design and optimization of soft robotic morphing wings with embedded proprioceptive sensing. In addition, I've been quite lucky to have interned at both Boeing and NASA, where I worked on airplane cabin product development as well as nuclear propulsion technologies. Whenever possible, I also enjoy keeping an eye out for interesting opportunities to apply my engineering experience for the medical field, primarily in volunteer roles. 
+Hello!
 
-Outside of work/school, I love to golf, ski, and play tennis. Lately, I've also been enjoying solving interesting math puzzles, and have been exploring how to build and repair watches. I also make a mean tiramisu (and I'm always on the hunt for great pastries and recipes). 
+I'm currently a graduate student at Stanford, where I'm studying mechanical engineering with a focus on robotics. This past year, I've been working with Jeannette Bohg in the <a href="http://iprl.stanford.edu/">Interactive Perception and Robot Learning Lab</a>, developing a simulation environment and control strategies for maipulating deformable cargo bags in the ISS. 
 
-Feel free to scroll through my page and view some of the <a href="/projects">projects</a> I've worked on! (Note that I can't share everything from my internships)
-<br/><br/>
+Before Stanford, I did my undergrad at Cornell, and spent a large fraction of my time there working in the <a href="https://orl.mae.cornell.edu/">Organic Robotics Lab</a> under Rob Shepherd, focusing on the design and optimization of soft robotic morphing wings with embedded proprioceptive sensing. 
 
-<img src="/assets/img/stanford.png" style="max-height:200px; max-width: 100%; height: auto; width: auto;">
-<center>M.S. Mechanical Engineering, 2021-2023 </center>
-<br/><br/>
+In addition, I've had some wonderful internship experiences at Boeing, NASA, and an exciting new robotics startup, Medra. For more information on my work experience, check out my <a href="https://www.linkedin.com/in/danielpmorton/">Linkedin</a>
 
-<img src="/assets/img/cornell.png" style="max-height:200px; max-width: 100%; height: auto; width: auto;">
-<center>B.S. Mechanical and Aerospace Engineering, 2021 </center>
-<br/><br/>
+When I'm not in the lab or in the office, you can usually find me at the Stanford tennis courts 🎾, golf course ⛳, or on the slopes ⛷.
 
-<img src="/assets/img/orl.png" style="max-height:150px; max-width: 100%; height: auto; width: auto;">
-<center>Undergraduate Researcher, 2018 - 2021 </center>
-<br/><br/>
-
-<img src="/assets/img/nasa.png" style="max-height:100px; max-width: 100%; height: auto; width: auto;">
-<center>Propulsion Research & Technology Intern, 2020 </center>
-<br/><br/>
-
-<img src="/assets/img/boeing.png" style="max-height:100px; max-width: 100%; height: auto; width: auto;">
-<center>Product Development Intern, 2019 </center>
-<br/><br/>
+Feel free to scroll through my page and view some of the <a href="/projects">projects</a> I've worked on. Software projects can be found at my <a href="https://github.com/danielpmorton">Github</a>, though much of my work lately has been in private repositories. However, my research will be open-source when it is complete!
