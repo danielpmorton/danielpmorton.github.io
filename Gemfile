@@ -1,7 +1,11 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.2.1"
-gem "jekyll-sitemap"
-gem "jekyll-gist"
-gem 'jekyll-mentions'
-gem 'jekyll-feed'
+# gem "rails"
+
+gem "webrick", "~> 1.8"
+
+gem "jekyll", "~> 4.3"
+
+gem "minima", "~> 2.5"

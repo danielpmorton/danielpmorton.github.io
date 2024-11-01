@@ -1,0 +1,47 @@
+danielpmorton:
+  first_name: Daniel
+  last_name: Morton
+  website: http://danielpmorton.com
+  is_me: true
+pavone:
+  first_name: Marco
+  last_name: Pavone
+  website: https://web.stanford.edu/~pavone/
+cutkosky:
+  first_name: Mark 
+  last_name: Cutkosky
+  website: http://bdml.stanford.edu/
+openx:
+  first_name: Open X-Embodiment Collaboration
+dotdotdot:
+  first_name: ...
+sascha:
+  first_name: Alexander
+  last_name: Khazatsky
+  website: https://www.linkedin.com/in/alexander-khazatsky-b98841149/
+karl:
+  first_name: Karl
+  last_name: Pertsch
+  website: https://kpertsch.github.io/
+sergey:
+  first_name: Sergey
+  last_name: Levine
+  website: https://people.eecs.berkeley.edu/~svlevine/
+chelsea:
+  first_name: Chelsea
+  last_name: Finn
+  website: https://ai.stanford.edu/~cbfinn/
+rob:
+  first_name: Robert
+  last_name: Shepherd
+  website: https://www.mae.cornell.edu/faculty-directory/robert-f-shepherd
+artemisxu:
+  first_name: Artemis
+  last_name: Xu
+albertomatute:
+  first_name: Alberto
+  last_name: Matute
+rika:
+  first_name: Rika
+  last_name: Antonova
+  website: https://contactrika.github.io/

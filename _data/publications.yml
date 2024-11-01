@@ -1,0 +1,62 @@
+- id: rbmanip
+  title: "Task-Driven Manipulation with Reconfigurable Parallel Robots"
+  venue: IROS, 2024
+  description: "We present a manipulation planning method for ReachBot, a new form of space robot employing extendable booms for mobility in Martian lava tubes. Via a two-part optimization-based method, we determine the configuration of the robot (where to place the booms) as well as how much tensile force should be applied in each boom. Through this, we can reliably complete tasks even despite uncertainty, disturbances, and stochastic failure modes."
+  project_page: https://stanfordasl.github.io/reachbot_manipulation/
+  github: StanfordASL/reachbot_manipulation
+  arxiv: 2403.10768
+  image: rb_site_icon.jpg
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - danielpmorton
+    - cutkosky
+    - pavone
+  # awards:
+  #   - "Oral Presentation"
+
+- id: openx
+  title: "Open X-Embodiment: Robotic Learning Datasets and RT-X Models"
+  venue: ICRA, 2024
+  description: "We introduce the Open X-Embodiment Dataset, the largest robot learning dataset to date with 1M+ real robot trajectories, spanning 22 robot embodiments. We train large, transformer-based policies on the dataset (RT-1-X, RT-2-X) and show that co-training with our diverse dataset substantially improves performance."
+  project_page: https://robotics-transformer-x.github.io/
+  # github: StanfordASL/reachbot_manipulation
+  arxiv: 2310.08864
+  image: openx.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - openx
+  awards:
+    - "Best Conference Paper"
+
+- id: droid
+  title: "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset"
+  venue: RSS, 2024
+  description: "We introduce DROID, the most diverse robot manipulation dataset to date. It contains 76k demonstration trajectories or 350 hours of interaction data, collected across 564 scenes and 84 tasks by 50 data collectors in North America, Asia, and Europe over the course of 12 months. We demonstrate that training with DROID leads to policies with higher performance and improved generalization ability."
+  project_page: https://droid-dataset.github.io/
+  # github: StanfordASL/reachbot_manipulation
+  arxiv: 2403.12945
+  image: droid.png
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - sascha
+    - karl
+    - dotdotdot
+    - danielpmorton
+    - dotdotdot
+    - sergey
+    - chelsea
+
+- id: wing
+  title: "Autonomous Material Composite Morphing Wing"
+  venue: JCM, 2023
+  description: "We developed a novel soft robotic morphing wing, capable of three-degree-of-freedom morphing (twist, camber, and extension) via an elastomeric conformal lattice with embedded optical strain sensors."
+  # project_page: https://droid-dataset.github.io/
+  # github: StanfordASL/reachbot_manipulation
+  arxiv: 2301.07859
+  image: wing.jpg
+  # image_mouseover: illuminerf_after.mp4
+  authors:
+    - danielpmorton
+    - artemisxu
+    - albertomatute
+    - rob

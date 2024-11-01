@@ -1,0 +1,13 @@
+- id: dronefencing
+  title: "Drone Fencing"
+  description: "Demonstrating reactive collision avoidance with control barrier functions, via a drone dodging a saber"
+  project_page: "https://src.stanford.edu/demo/drone-fencing"
+  # github: "username/project-one"
+  image: "drone_fencing.jpg"
+  # image_mouseover: "project1-hover.jpg"
+  venue: Stanford Robotics Center Opening, November 2024
+  authors:
+    - danielpmorton
+    - rika
+    - pavone
+

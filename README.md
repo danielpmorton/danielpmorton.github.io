@@ -1,12 +1,8 @@
-# Welcome to my website's GitHub!
+# keunhong.github.io
 
+- Feel free to borrow this template.
+- Make sure to update all relevant fields in `_config.yml` and `_data`.
 
-# Information on the theme used for my website can be found below
+# License
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-Moon Jekyll Theme by TaylanTatli
-
-[Moon](https://taylantatli.github.io/Moon) is a minimal, one column jekyll theme.
-
-See a [live version of Moon](https://taylantatli.github.io/Moon) hosted on GitHub.
-
-To learn how to install and use this theme check out the [Setup Guide](https://taylantatli.github.io/Moon/moon-theme/) for more information.
