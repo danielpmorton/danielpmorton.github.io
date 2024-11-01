@@ -25,7 +25,7 @@ email: danielpmorton@gmail.com
 description: >-
   I am a PhD candidate at Stanford University, where I work with [Marco Pavone](https://web.stanford.edu/~pavone/) in the [Autonomous Systems Lab](https://stanfordasl.github.io/). I'm interested in efficient planning and modeling methods for robotic manipulation, with an emphasis on space and novel hardware. Before Stanford, I worked with Rob Shepherd in the Organic Robotics Lab at Cornell. I am also a current 2024 NASA Space Technology Graduate Research Fellow, and was a 2022 NSF Graduate Research Fellow.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://danielpmorton.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://danielpmorton.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: danielpmorton
 linkedin_username: danielpmorton
 github_username: danielpmorton
