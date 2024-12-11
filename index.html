@@ -256,6 +256,81 @@ layout: null
     </div>
   </section>
 
+  <section class="section">
+    <div class="container is-max-desktop">
+
+
+      <h2 class="title is-3">Software</h2>
+
+      {% for software in site.data.software %}
+      <div class="software-block columns">
+
+        <div class="column is-2">
+          <div class="software-image {% if software.image_mouseover %}software-mousecell{% endif %}">
+            {% if software.image_mouseover contains "mp4" %}
+            <video autoplay preload playsinline class="" height="100%" loop muted width="100%">
+              <source src="./images/{{ software.image_mouseover }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            {% endif %}
+            <img alt="{{ software.title }}" src="./images/{{ software.image }}" />
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <h3 class="software-title"><a href="{{ software.software_page }}">{{ software.title }}</a></h3>
+            <div class="software-authors">
+              {% for author_id in software.authors %}
+              {% assign author = site.data.authors[author_id] %}
+              <span class="author-block {% if author.is_me %}author-me{% endif %}">
+                {% if author.is_me %}
+                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
+                endif %}
+                {% else %}
+                <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
+                  }}</a>{% if forloop.last == false %},{% endif %}
+                {% endif %}
+              </span>
+              {% endfor %}
+            </div>
+            <div class="software-venue">
+              <span>{{ software.venue }}</span>
+              {% for award in software.awards %}
+                <span class="software-venue-emph">{{ award }}<span>
+              {% endfor %}
+            </div>
+            <p class="software-description">{{ software.description }}</p>
+            <!-- software Links. -->
+            <div class="software-links buttons field has-addons">
+              <a class="external-link button is-small is-ghost" href="{{ software.documentation }}">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span>Documentation</span>
+              </a>
+              <!-- <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ software.arxiv }}.pdf"> -->
+                <!-- <span class="icon"><i class="fas fa-file-pdf"></i></span> -->
+                <!-- <span>PDF</span> -->
+              <!-- </a> -->
+              <!-- <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ software.arxiv }}"> -->
+                <!-- <span class="icon"><i class="ai ai-arxiv"></i></span> -->
+                <!-- <span>arXiv</span> -->
+              <!-- </a> -->
+              {% if software.github %}
+              <a class="external-link button is-small is-ghost" href="https://github.com/{{ software.github }}">
+                <span class="icon"><i class="fa fab fa-github"></i></span>
+                <span>Code</span>
+              </a>
+              {% endif %}
+            </div>
+            <!--/ software Links. -->
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+
   <footer class="footer">
     <div class="container">
       <div class="content footer-links has-text-centered">
