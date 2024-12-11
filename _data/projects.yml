@@ -2,7 +2,7 @@
   title: "Drone Fencing"
   description: "Demonstrating reactive collision avoidance with control barrier functions, via a drone dodging a saber"
   project_page: "https://danielpmorton.github.io/drone_fencing/"
-  # github: "username/project-one"
+  github: "danielpmorton/drone_fencing"
   image: "drone_fencing.jpg"
   # image_mouseover: "project1-hover.jpg"
   venue: Stanford Robotics Center Opening, November 2024
