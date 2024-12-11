@@ -279,7 +279,7 @@ layout: null
 
         <div class="column">
           <div class="content">
-            <h3 class="software-title"><a href="{{ software.software_page }}">{{ software.title }}</a></h3>
+            <h3 class="software-title"><a href="{{ software.documentation }}">{{ software.title }}</a></h3>
             <div class="software-authors">
               {% for author_id in software.authors %}
               {% assign author = site.data.authors[author_id] %}
