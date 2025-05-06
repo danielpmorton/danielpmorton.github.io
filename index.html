@@ -311,14 +311,16 @@ layout: null
                 <span class="icon"><i class="fas fa-globe-asia"></i></span>
                 <span>Documentation</span>
               </a>
-              <!-- <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ software.arxiv }}.pdf"> -->
-                <!-- <span class="icon"><i class="fas fa-file-pdf"></i></span> -->
-                <!-- <span>PDF</span> -->
-              <!-- </a> -->
-              <!-- <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ software.arxiv }}"> -->
-                <!-- <span class="icon"><i class="ai ai-arxiv"></i></span> -->
-                <!-- <span>arXiv</span> -->
-              <!-- </a> -->
+              {% if software.arxiv %}
+              <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ software.arxiv }}.pdf">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>PDF</span>
+              </a>
+              <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ software.arxiv }}">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+              </a>
+              {% endif %}
               {% if software.github %}
               <a class="external-link button is-small is-ghost" href="https://github.com/{{ software.github }}">
                 <span class="icon"><i class="fa fab fa-github"></i></span>

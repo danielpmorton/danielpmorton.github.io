@@ -7,4 +7,19 @@
   # image_mouseover: "project1-hover.jpg"
   authors:
     - danielpmorton
+- id: pyastrobee
+  title: "pyastrobee: A simulation environment for Astrobee in Python"
+  venue: RSS Space Robotics Workshop, 2025 [Submitted]
+  description: "Free-floating space robot simulation and control, with an emphasis on deformable cargo manipulation and transport in the ISS"
+  documentation: "https://danielpmorton.github.io/pyastrobee/"
+  github: "danielpmorton/pyastrobee"
+  arxiv: "2505.01630"
+  image: "astrobee.jpg"
+  # image_mouseover: "project1-hover.jpg"
+  authors:
+    - danielpmorton
+    - rika
+    - briancoltin
+    - pavone
+    - bohg
 
