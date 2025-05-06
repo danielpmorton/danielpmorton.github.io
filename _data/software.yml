@@ -3,6 +3,7 @@
   description: "An easy-to-use and high-performance framework for constructing and solving Control Barrier Functions (CBFs) and Control Lyapunov Functions (CLFs)"
   documentation: "https://danielpmorton.github.io/cbfpy/"
   github: "danielpmorton/cbfpy"
+  pypi: "cbfpy"
   image: "cbfpy_logo.png"
   # image_mouseover: "project1-hover.jpg"
   authors:

@@ -327,6 +327,12 @@ layout: null
                 <span>Code</span>
               </a>
               {% endif %}
+              {% if software.pypi %}
+              <a class="external-link button is-small is-ghost" href="https://pypi.org/project/{{ software.pypi }}">
+                <span class="icon"><i class="fab fa-python"></i></span>
+                <span>PyPI</span>
+              </a>
+              {% endif %}
             </div>
             <!--/ software Links. -->
           </div>
