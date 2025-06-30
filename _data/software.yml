@@ -10,7 +10,7 @@
     - danielpmorton
 - id: pyastrobee
   title: "pyastrobee: A simulation environment for Astrobee in Python"
-  venue: RSS Space Robotics Workshop, 2025 [Submitted]
+  venue: RSS Space Robotics Workshop, 2025
   description: "Free-floating space robot simulation and control, with an emphasis on deformable cargo manipulation and transport in the ISS"
   documentation: "https://danielpmorton.github.io/pyastrobee/"
   github: "danielpmorton/pyastrobee"
@@ -23,4 +23,5 @@
     - briancoltin
     - pavone
     - bohg
-
+  awards:
+    - "Best Workshop Paper Finalist"
