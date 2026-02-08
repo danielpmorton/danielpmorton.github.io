@@ -41,7 +41,7 @@ layout: null
 
   <section class="hero">
     <div class="hero-body container is-max-desktop">
-      <div class="columns is-vcentered">
+      <div class="columns">
 
         <div class="column is-4">
           <div class="portrait">
@@ -71,12 +71,6 @@ layout: null
                 <span class="icon"><i class="fab fa-github"></i></span>
                 <span>Github</span>
               </a>
-
-              <!-- <a class="external-link button is-light" href="https://twitter.com/{{ site.twitter_username }}">
-                <span class="icon"><i class="fab fa-twitter"></i></span>
-                <span>Twitter</span>
-              </a> -->
-
               <a class="external-link button is-light" href="https://linkedin.com/in/{{ site.linkedin_username }}">
                 <span class="icon"><i class="fab fa-linkedin"></i></span>
                 <span>Linkedin</span>
@@ -98,17 +92,6 @@ layout: null
 
   <section class="section">
     <div class="container is-max-desktop">
-
-      <!--<h2 class="title is-3">News</h2>
-      <div class="content">
-        <ul>
-          {% for news in site.data.news %}
-          <li>
-            <b>{{ news.date }}</b>: {{ news.description | markdownify | remove: '<p>' | remove: '</p>' }}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>-->
 
       <h2 class="title is-3">Publications</h2>
 
@@ -184,8 +167,6 @@ layout: null
     </div>
   </section>
 
-<!-- NEW -->
-
   <section class="section">
     <div class="container is-max-desktop">
 
@@ -237,14 +218,6 @@ layout: null
                 <span class="icon"><i class="fas fa-globe-asia"></i></span>
                 <span>Project Page</span>
               </a>
-              <!-- <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ project.arxiv }}.pdf"> -->
-                <!-- <span class="icon"><i class="fas fa-file-pdf"></i></span> -->
-                <!-- <span>PDF</span> -->
-              <!-- </a> -->
-              <!-- <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ project.arxiv }}"> -->
-                <!-- <span class="icon"><i class="ai ai-arxiv"></i></span> -->
-                <!-- <span>arXiv</span> -->
-              <!-- </a> -->
               {% if project.github %}
               <a class="external-link button is-small is-ghost" href="https://github.com/{{ project.github }}">
                 <span class="icon"><i class="fa fab fa-github"></i></span>
@@ -343,17 +316,43 @@ layout: null
   </section>
 
 
+  <section class="section gallery-section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Robots & Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="{{ '/images/gallery/astrobee.jpg' | relative_url }}" alt="Astrobee">
+        </div>
+        <div class="gallery-item">
+          <img src="{{ '/images/gallery/franka_freeflyers.jpg' | relative_url }}" alt="Franka Panda and ASL Freeflyers">
+        </div>
+        <div class="gallery-item">
+          <img src="{{ '/images/gallery/reachbot.jpg' | relative_url }}" alt="ReachBot">
+        </div>
+        <div class="gallery-item">
+          <img src="{{ '/images/gallery/turtlebots.jpg' | relative_url }}" alt="Turtlebots">
+        </div>
+        <div class="gallery-item">
+          <img src="{{ '/images/gallery/quadrotor.jpg' | relative_url }}" alt="Quadrotor">
+        </div>
+        <div class="gallery-item">
+          <img src="{{ '/images/gallery/fencing.jpg' | relative_url }}" alt="Drone Fencing">
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer class="footer">
     <div class="container">
       <div class="content footer-links has-text-centered">
-        <a href="mailto:{{ site.email }}">
+        <!-- <a href="mailto:{{ site.email }}">
           <i class="fas fa-envelope"></i>
+        </a> -->
+        <a class="external-link" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+          <i class="ai ai-google-scholar"></i>
         </a>
         <a class="external-link" href="https://github.com/{{ site.github_username }}">
           <i class="fab fa-github"></i>
-        </a>
-        <a class="external-link" href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
-          <i class="ai ai-google-scholar"></i>
         </a>
         <a class="external-link" href="https://linkedin.com/in/{{ site.linkedin_username }}">
           <i class="fab fa-linkedin"></i>
@@ -363,7 +362,7 @@ layout: null
         <div class="column is-8">
           <div class="content">
             <p>
-              Template borrowed from <a href="https://github.com/keunhong/keunhong.github.io">Keunhong Park</a>.
+              Template adapted from <a href="https://github.com/keunhong/keunhong.github.io">Keunhong Park</a>.
             </p>
           </div>
         </div>

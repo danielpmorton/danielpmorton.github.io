@@ -3,16 +3,28 @@
 
 @import "base";
 
+.section {
+    padding: 2rem 1.5rem;
+}
+
+.hero + .hr + .section {
+    padding-top: 1rem;
+}
+
 .title {
     font-family: 'Google Sans';
     font-weight: 700;
 }
 
 .portrait {
-    border-radius: 2%;
+    border-radius: 8px;
     overflow: hidden;
 
-    img { transform: scale(1.0); }
+    img { 
+        width: 100%;
+        display: block;
+        transform: scale(1.0); 
+    }
 }
 
 .footer .footer-links a {
@@ -66,14 +78,18 @@
     }
 
     .publication-image {
-        border-radius: 2%;
+        border-radius: 4px;
         width: 100%;
-        height: 100%;
+        height: auto;
+        max-width: 120px; /* Reduced size */
+        margin: 0 auto;
         overflow: hidden;
         font-size: 0;
 
         img {
             width: 100%;
+            height: auto;
+            display: block;
         }
     }
 
@@ -151,14 +167,18 @@
     }
 
     .project-image {
-        border-radius: 2%;
+        border-radius: 4px;
         width: 100%;
-        height: 100%;
+        height: auto;
+        max-width: 120px; /* Reduced size */
+        margin: 0 auto;
         overflow: hidden;
         font-size: 0;
 
         img {
             width: 100%;
+            height: auto;
+            display: block;
         }
     }
 
@@ -236,14 +256,18 @@
     }
 
     .software-image {
-        border-radius: 2%;
+        border-radius: 4px;
         width: 100%;
-        height: 100%;
+        height: auto;
+        max-width: 120px; /* Reduced size */
+        margin: 0 auto;
         overflow: hidden;
         font-size: 0;
 
         img {
             width: 100%;
+            height: auto;
+            display: block;
         }
     }
 
@@ -271,5 +295,33 @@
     .software-links {
         margin: 0 !important;
         margin-top: 0.5em !important;
+    }
+}
+
+.gallery-section {
+    padding-bottom: 3rem;
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .gallery-item {
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+
+        img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
     }
 }

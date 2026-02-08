@@ -1,6 +1,6 @@
 - id: dronefencing
   title: "Drone Fencing"
-  description: "Demonstrating reactive collision avoidance with control barrier functions, via a drone dodging a saber"
+  description: "Dynamic collision avoidance with control barrier functions"
   project_page: "https://danielpmorton.github.io/drone_fencing/"
   github: "danielpmorton/drone_fencing"
   image: "drone_fencing.jpg"
