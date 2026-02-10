@@ -1,3 +1,36 @@
+- id: sms
+  title: "Scan, Materialize, Simulate: A Generalizable Framework for Physically Grounded Robot Planning"
+  venue: ICRA, 2026
+  description: "3D Gaussian splatting + mesh reconstruction + simulation = physics-informed robot planning "
+  # project_page: TODO
+  # github: TODO
+  arxiv: "2505.14938"
+  # image: sms.jpg
+  # image_mouseover: TODO.mp4
+  authors:
+    - amine
+    - danielpmorton
+    - pavone
+
+
+- id: reachbot_outfitting
+  title: "Long-Reach Robotic Manipulation for Assembly and Outfitting of Lunar Structures"
+  venue: iSpaRo, 2025
+  description: "Autonomous manipulation of cables with long-reach robotic arms for construction tasks on the Moon."
+  project_page: https://stanleywang1.github.io/isparo25_paper/
+  github: StanleyWang1/GIRAF
+  # arxiv: "TODO"
+  # image: reachbot_outfitting.jpg
+  # image_mouseover: TODO.mp4
+  authors:
+    - swang
+    - vkojo
+    - clive
+    - danielpmorton
+    - cutkosky
+  awards:
+    - "Best Paper Award"
+
 - id: oscbf
   title: "Safe, Task-Consistent Manipulation with Operational Space Control Barrier Functions"
   selected: true
@@ -11,6 +44,25 @@
   authors:
     - danielpmorton
     - pavone
+
+
+- id: fortress
+  title: "Real-Time Out-of-Distribution Failure Prevention via Multi-Modal Reasoning"
+  venue: CoRL, 2025
+  description: "Semantically-safe fallback strategies to prevent out-of-distribution failures in real-time"
+  project_page: https://milanganai.github.io/fortress/
+  github: milanganai/fortress
+  arxiv: "2505.10547"
+  # image: fortress.jpg
+  # image_mouseover: TODO.mp4
+  authors:
+    - mganai
+    - rsinha
+    - cagia
+    - danielpmorton
+    - pavone
+  awards:
+    - "Oral"
 
 - id: rbmanip
   title: "Task-Driven Manipulation with Reconfigurable Parallel Robots"
