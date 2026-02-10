@@ -1,5 +1,6 @@
 - id: oscbf
   title: "Safe, Task-Consistent Manipulation with Operational Space Control Barrier Functions"
+  selected: true
   venue: IROS, 2025
   description: "Safe, low-latency manipulator teleoperation at the limits of performance, maintaining hundreds of safety constraints at kilohertz control rates."
   project_page: https://stanfordasl.github.io/oscbf/
@@ -11,9 +12,9 @@
     - danielpmorton
     - pavone
 
-
 - id: rbmanip
   title: "Task-Driven Manipulation with Reconfigurable Parallel Robots"
+  selected: true
   venue: IROS, 2024
   description: "Optimization-based manipulation planning methods for ReachBot, a novel multi-limbed space robot."
   project_page: https://stanfordasl.github.io/reachbot_manipulation/
