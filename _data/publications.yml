@@ -5,7 +5,7 @@
   # project_page: TODO
   # github: TODO
   arxiv: "2505.14938"
-  # image: sms.jpg
+  image: sms.jpg
   # image_mouseover: TODO.mp4
   authors:
     - amine
@@ -20,7 +20,7 @@
   project_page: https://stanleywang1.github.io/isparo25_paper/
   github: StanleyWang1/GIRAF
   # arxiv: "TODO"
-  # image: reachbot_outfitting.jpg
+  image: reachbot_outfitting.jpg
   # image_mouseover: TODO.mp4
   authors:
     - swang
@@ -53,7 +53,7 @@
   project_page: https://milanganai.github.io/fortress/
   github: milanganai/fortress
   arxiv: "2505.10547"
-  # image: fortress.jpg
+  image: fortress.jpg
   # image_mouseover: TODO.mp4
   authors:
     - mganai
