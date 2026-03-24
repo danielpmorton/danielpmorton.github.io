@@ -21,6 +21,7 @@
   github: StanleyWang1/GIRAF
   # arxiv: "TODO"
   image: reachbot_outfitting.jpg
+  ieee: "11437024"
   # image_mouseover: TODO.mp4
   authors:
     - swang
@@ -40,6 +41,7 @@
   github: StanfordASL/oscbf
   arxiv: "2503.06736"
   image: oscbf.jpg
+  ieee: "11246389"
   # image_mouseover: TODO.mp4
   authors:
     - danielpmorton
@@ -72,6 +74,7 @@
   project_page: https://stanfordasl.github.io/reachbot_manipulation/
   github: StanfordASL/reachbot_manipulation
   arxiv: "2403.10768"
+  ieee: "10801313"
   image: rb_site_icon.jpg
   authors:
     - danielpmorton
@@ -85,6 +88,7 @@
   project_page: https://robotics-transformer-x.github.io/
   github: google-deepmind/open_x_embodiment
   arxiv: "2310.08864"
+  ieee: "10611477"
   image: openx.png
   authors:
     - openx

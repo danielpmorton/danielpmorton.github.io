@@ -158,6 +158,12 @@ layout: null
                 <span>Code</span>
               </a>
               {% endif %}
+              {% if publication.ieee %}
+              <a class="external-link button is-small is-ghost" href="https://ieeexplore.ieee.org/document/{{ publication.ieee }}">
+                <span class="icon"><i class="fas fa-book-reader"></i></span>
+                <span>IEEE Xplore</span>
+              </a>
+              {% endif %}
             </div>
             <!--/ Publication Links. -->
           </div>
