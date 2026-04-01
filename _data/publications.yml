@@ -19,7 +19,7 @@
   description: "Autonomous manipulation of cables with long-reach robotic arms for construction tasks on the Moon."
   project_page: https://stanleywang1.github.io/isparo25_paper/
   github: StanleyWang1/GIRAF
-  # arxiv: "TODO"
+  arxiv: "2603.29226"
   image: reachbot_outfitting.jpg
   ieee: "11437024"
   # image_mouseover: TODO.mp4
