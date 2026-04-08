@@ -5,6 +5,7 @@
   github: "danielpmorton/frax"
   pypi: "frax"
   image: "frax_logo_250px.png"
+  arxiv: "2604.04310"
   # image_mouseover: "project1-hover.jpg"
   authors:
     - danielpmorton
