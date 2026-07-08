@@ -2,7 +2,7 @@
   title: "Constrained Whole-Body Tracking for Humanoid Robots"
   selected: true
   venue: In Submission
-  description: "Optimization-based (CBF) constraints for RL-based humanoid whole-body control, enabling safety without retraining the base policy"
+  description: "Optimization-based (CBF) constraints for RL-based humanoid whole-body control, enabling runtime-specified safety without retraining the base policy"
   # project_page: TODO
   # github: TODO
   arxiv: "2606.00374"
@@ -31,7 +31,7 @@
 - id: reachbot_outfitting
   title: "Long-Reach Robotic Manipulation for Assembly and Outfitting of Lunar Structures"
   venue: iSpaRo, 2025
-  description: "Autonomous manipulation of cables with long-reach robotic arms for construction tasks on the Moon."
+  description: "Autonomous manipulation of cables with long-reach robotic arms for construction tasks on the Moon"
   project_page: https://stanleywang1.github.io/isparo25_paper/
   github: StanleyWang1/GIRAF
   arxiv: "2603.29226"
@@ -51,7 +51,7 @@
   title: "Safe, Task-Consistent Manipulation with Operational Space Control Barrier Functions"
   selected: true
   venue: IROS, 2025
-  description: "Safe, low-latency manipulator teleoperation at the limits of performance, maintaining hundreds of safety constraints at kilohertz control rates."
+  description: "Safe, low-latency manipulator teleoperation at the limits of performance, maintaining hundreds of safety constraints at kilohertz control rates"
   project_page: https://stanfordasl.github.io/oscbf/
   github: StanfordASL/oscbf
   arxiv: "2503.06736"
@@ -85,7 +85,7 @@
   title: "Task-Driven Manipulation with Reconfigurable Parallel Robots"
   selected: true
   venue: IROS, 2024
-  description: "Optimization-based manipulation planning methods for ReachBot, a novel multi-limbed space robot."
+  description: "Optimization-based manipulation planning methods for ReachBot, a novel multi-limbed space robot"
   project_page: https://stanfordasl.github.io/reachbot_manipulation/
   github: StanfordASL/reachbot_manipulation
   arxiv: "2403.10768"
@@ -99,7 +99,7 @@
 - id: openx
   title: "Open X-Embodiment: Robotic Learning Datasets and RT-X Models"
   venue: ICRA, 2024
-  description: "A massive dataset for robot learning, with over 1M trajectories across 22 embodiments."
+  description: "A massive dataset for robot learning, with over 1M trajectories across 22 embodiments"
   project_page: https://robotics-transformer-x.github.io/
   github: google-deepmind/open_x_embodiment
   arxiv: "2310.08864"
@@ -130,7 +130,7 @@
 - id: wing
   title: "Autonomous Material Composite Morphing Wing"
   venue: JCM, 2023
-  description: "A soft robotic wing capable of multi-degree-of-freedom shape morphing via an elastomeric lattice with embedded optical sensing."
+  description: "A soft robotic wing capable of multi-degree-of-freedom shape morphing via an elastomeric lattice with embedded optical sensing"
   arxiv: "2301.07859"
   image: wing.jpg
   authors:
