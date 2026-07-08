@@ -1,3 +1,18 @@
+- id: constrainedmimic
+  title: "Constrained Whole-Body Tracking for Humanoid Robots"
+  selected: true
+  venue: In Submission
+  description: "Optimization-based (CBF) constraints for RL-based humanoid whole-body control, enabling safety without retraining the base policy"
+  # project_page: TODO
+  # github: TODO
+  arxiv: "2606.00374"
+  image: constrainedmimic.jpg
+  # image_mouseover: TODO.mp4
+  authors:
+    - danielpmorton
+    - pmohnot
+    - pavone
+
 - id: sms
   title: "Scan, Materialize, Simulate: A Generalizable Framework for Physically Grounded Robot Planning"
   venue: ICRA, 2026
