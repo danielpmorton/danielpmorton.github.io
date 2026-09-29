@@ -13,6 +13,19 @@
     - pmohnot
     - pavone
 
+- id: frax
+  title: "frax: Fast Robot Kinematics and Dynamics in JAX"
+  venue: ICRA Workshop on Frontiers of Optimization for Robotics, 2026
+  description: "Fast robot dynamics on CPU, GPU, and TPU, with automatic differentiation support, in Python"
+  github: "danielpmorton/frax"
+  pypi: "frax"
+  image: "frax_logo_250px.png"
+  arxiv: "2604.04310"
+  authors:
+    - danielpmorton
+    - pavone
+
+
 - id: sms
   title: "Scan, Materialize, Simulate: A Generalizable Framework for Physically Grounded Robot Planning"
   venue: ICRA, 2026
@@ -80,6 +93,23 @@
     - pavone
   awards:
     - "Oral"
+
+- id: pyastrobee
+  title: "Deformable Cargo Transport in Microgravity with Astrobee"
+  venue: RSS Space Robotics Workshop, 2025
+  description: "Free-floating space robot simulation and control, with an emphasis on deformable cargo manipulation and transport in the ISS"
+  documentation: "https://danielpmorton.github.io/pyastrobee/"
+  github: "danielpmorton/pyastrobee"
+  arxiv: "2505.01630"
+  image: "astrobee.jpg"
+  authors:
+    - danielpmorton
+    - rika
+    - briancoltin
+    - pavone
+    - bohg
+  awards:
+    - "Best Workshop Paper Finalist"
 
 - id: rbmanip
   title: "Task-Driven Manipulation with Reconfigurable Parallel Robots"

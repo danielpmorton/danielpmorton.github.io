@@ -69,8 +69,8 @@ layout: null
       </div>
     </header>
 
-    <!-- Selected work: anything marked `selected: true` in the data files. -->
-    {% assign all_work = site.data.publications | concat: site.data.projects | concat: site.data.software %}
+    <!-- Selected work: publications and projects marked `selected: true`. -->
+    {% assign all_work = site.data.publications | concat: site.data.projects %}
     {% assign selected = all_work | where: "selected", true %}
     {% if selected.size > 0 %}
     <section>
@@ -89,7 +89,30 @@ layout: null
     </section>
     {% endif %}
 
-    <!-- Publications, grouped by the year at the end of `venue`. -->
+    <!-- Selected software: everything in software.yml. An entry with `publication: <id>`
+         is drawn from that publication instead. -->
+    <section>
+      <h2 class="eyebrow">Selected Software</h2>
+      <div class="software">
+        {% for software in site.data.software %}
+        {% if software.publication %}
+        {% assign item = site.data.publications | where: "id", software.publication | first %}
+        {% else %}
+        {% assign item = software %}
+        {% endif %}
+        <article class="card">
+          {% include item-thumb.html item=item %}
+          {% include item-meta.html item=item %}
+          {% include item-title.html item=item %}
+          <p class="item-desc">{{ item.description }}</p>
+          {% include item-links.html item=item %}
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <!-- Publications, grouped by the year at the end of `venue`. Starred if highlighted above. -->
+    {% assign software_pubs = site.data.software | map: "publication" %}
     <section>
       <h2 class="eyebrow">Publications</h2>
       {% assign years = site.data.publications | group_by_exp: "p", "p.venue | split: ', ' | last" %}
@@ -98,7 +121,7 @@ layout: null
         <div class="year">{{ year.name }}</div>
         <div class="rows">
           {% for publication in year.items %}
-          <article class="row{% if publication.selected %} is-selected{% endif %}">
+          <article class="row{% if publication.selected or software_pubs contains publication.id %} is-selected{% endif %}">
             {% include item-title.html item=publication %}
             {% include authors.html ids=publication.authors %}
             {% include item-meta.html item=publication %}
@@ -111,24 +134,27 @@ layout: null
       {% endfor %}
     </section>
 
-    <!-- Software and projects. -->
+    <!-- Other projects. -->
+    {% assign other_projects = site.data.projects | where_exp: "p", "p.selected != true" %}
+    {% if other_projects.size > 0 %}
     <section>
-      <h2 class="eyebrow">Software &amp; Projects</h2>
-      <div class="tools">
-        {% assign tools = site.data.software | concat: site.data.projects %}
-        {% for item in tools %}
-        <article class="tool">
-          <div class="logo">
-            <img alt="" src="{{ '/images/' | append: item.image | relative_url }}" loading="lazy" />
+      <h2 class="eyebrow">Other Projects</h2>
+      <div class="projects">
+        {% for item in other_projects %}
+        <article class="project">
+          {% include item-thumb.html item=item %}
+          <div class="project-text">
+            {% include item-title.html item=item %}
+            {% include authors.html ids=item.authors %}
+            {% include item-meta.html item=item %}
+            <p class="item-desc">{{ item.description }}</p>
+            {% include item-links.html item=item %}
           </div>
-          {% include item-title.html item=item %}
-          <p class="item-desc">{{ item.description }}</p>
-          {% include item-meta.html item=item %}
-          {% include item-links.html item=item %}
         </article>
         {% endfor %}
       </div>
     </section>
+    {% endif %}
 
     <!-- Gallery. -->
     <section>

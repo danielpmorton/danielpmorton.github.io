@@ -1,15 +1,9 @@
-- id: frax
-  title: "frax: Fast Robot Kinematics and Dynamics in JAX"
-  description: "Fast robot dynamics on CPU, GPU, and TPU, with automatic differentiation support, in Python"
-  # documentation: "https://danielpmorton.github.io/frax/"
-  github: "danielpmorton/frax"
-  pypi: "frax"
-  image: "frax_logo_250px.png"
-  arxiv: "2604.04310"
-  # image_mouseover: "project1-hover.jpg"
-  authors:
-    - danielpmorton
-    - pavone
+# Shown in the "Selected Software" row, in this order.
+# Software that is also a paper can point at its publications.yml entry with
+# `publication: <id>` instead of repeating the details.
+
+- publication: frax
+
 - id: cbfpy
   title: "CBFpy: Control Barrier Functions in Python and Jax"
   description: "An easy-to-use and high-performance framework for constructing and solving Control Barrier Functions (CBFs) and Control Lyapunov Functions (CLFs)"
@@ -20,20 +14,3 @@
   # image_mouseover: "project1-hover.jpg"
   authors:
     - danielpmorton
-- id: pyastrobee
-  title: "pyastrobee: A simulation environment for Astrobee in Python"
-  venue: RSS Space Robotics Workshop, 2025
-  description: "Free-floating space robot simulation and control, with an emphasis on deformable cargo manipulation and transport in the ISS"
-  documentation: "https://danielpmorton.github.io/pyastrobee/"
-  github: "danielpmorton/pyastrobee"
-  arxiv: "2505.01630"
-  image: "astrobee.jpg"
-  # image_mouseover: "project1-hover.jpg"
-  authors:
-    - danielpmorton
-    - rika
-    - briancoltin
-    - pavone
-    - bohg
-  awards:
-    - "Best Workshop Paper Finalist"
