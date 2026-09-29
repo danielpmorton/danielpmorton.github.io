@@ -2,8 +2,6 @@
 
 My personal website.
 
-See https://github.com/keunhong/keunhong.github.io for the template
-
 ```
 # git clone https://github.com/danielpmorton/danielpmorton.github.io
 # cd danielpmorton.github.io
