@@ -1,0 +1,15 @@
+<div class="authors">
+  {%- for author_id in include.ids -%}
+  {%- assign author = site.data.authors[author_id] -%}
+  {%- capture name -%}{{ author.first_name }} {{ author.middle_name }} {{ author.last_name }}{%- endcapture -%}
+  {%- assign name = name | normalize_whitespace | strip -%}
+  {%- if author.is_me -%}
+  <span class="me">{{ name }}</span>
+  {%- elsif author.website -%}
+  <a href="{{ author.website }}">{{ name }}</a>
+  {%- else -%}
+  {{ name }}
+  {%- endif -%}
+  {%- unless forloop.last %}, {% endunless -%}
+  {%- endfor -%}
+</div>

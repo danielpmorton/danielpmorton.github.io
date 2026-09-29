@@ -1,0 +1,9 @@
+{%- assign item = include.item -%}
+<div class="thumb{% if item.image contains 'logo' %} contain{% endif %}{% if item.image_mouseover contains 'mp4' %} mousecell{% endif %}">
+  {%- if item.image_mouseover contains "mp4" %}
+  <video preload="none" playsinline loop muted>
+    <source src="{{ '/images/' | append: item.image_mouseover | relative_url }}" type="video/mp4">
+  </video>
+  {%- endif %}
+  <img alt="{{ item.title }}" src="{{ '/images/' | append: item.image | relative_url }}" loading="lazy">
+</div>

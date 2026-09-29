@@ -1,0 +1,9 @@
+{%- assign item = include.item -%}
+<div class="item-links">
+  {%- if item.project_page %}<a href="{{ item.project_page }}">Project Page</a>{% endif -%}
+  {%- if item.documentation %}<a href="{{ item.documentation }}">Documentation</a>{% endif -%}
+  {%- if item.arxiv %}<a href="https://arxiv.org/pdf/{{ item.arxiv }}.pdf">PDF</a><a href="https://arxiv.org/abs/{{ item.arxiv }}">arXiv</a>{% endif -%}
+  {%- if item.github %}<a href="https://github.com/{{ item.github }}">Code</a>{% endif -%}
+  {%- if item.ieee %}<a href="https://ieeexplore.ieee.org/document/{{ item.ieee }}">IEEE Xplore</a>{% endif -%}
+  {%- if item.pypi %}<a href="https://pypi.org/project/{{ item.pypi }}">PyPI</a>{% endif -%}
+</div>

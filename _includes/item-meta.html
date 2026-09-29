@@ -1,0 +1,7 @@
+{%- assign item = include.item -%}
+{%- if item.venue or item.awards -%}
+<div class="item-meta">
+  {%- if item.venue %}<span>{{ item.venue }}</span>{% endif -%}
+  {%- for award in item.awards %}<span class="tag">{{ award }}</span>{% endfor -%}
+</div>
+{%- endif -%}

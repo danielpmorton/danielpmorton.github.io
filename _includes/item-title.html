@@ -1,0 +1,7 @@
+{%- assign item = include.item -%}
+{%- capture arxiv_url -%}{% if item.arxiv %}https://arxiv.org/abs/{{ item.arxiv }}{% endif %}{%- endcapture -%}
+{%- capture github_url -%}{% if item.github %}https://github.com/{{ item.github }}{% endif %}{%- endcapture -%}
+{%- assign url = item.project_page | default: item.documentation | default: arxiv_url | default: github_url -%}
+<h3 class="item-title">
+  {%- if url != "" -%}<a href="{{ url }}">{{ item.title }}</a>{%- else -%}{{ item.title }}{%- endif -%}
+</h3>
