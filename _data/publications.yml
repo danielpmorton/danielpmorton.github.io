@@ -1,7 +1,7 @@
 - id: constrainedmimic
   title: "Constrained Whole-Body Tracking for Humanoid Robots"
   selected: true
-  venue: In Submission
+  venue: CoRL, 2026
   description: "Optimization-based (CBF) constraints for RL-based humanoid whole-body control, enabling runtime-specified safety without retraining the base policy"
   # project_page: TODO
   # github: TODO
