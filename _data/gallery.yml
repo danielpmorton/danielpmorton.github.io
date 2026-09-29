@@ -5,16 +5,16 @@
 - image: reachbot.jpg
   caption: ReachBot
 - image: turtlebots.jpg
-  caption: Turtlebots
+  caption: ASL Turtlebots
 - image: quadrotor.jpg
-  caption: Quadrotor
+  caption: Quad
 - image: freeflyers.jpg
-  caption: Freeflyers
+  caption: ASL Freeflyers
 - image: g1.jpg
-  caption: G1
+  caption: Unitree G1
 - image: giraf.jpg
-  caption: GIRAF
+  caption: GIRAF / ANYmal
 - image: millispinner.jpg
-  caption: Millispinner
+  caption: Millispinner / xArm7
 - image: fencing.jpg
   caption: Drone Fencing
