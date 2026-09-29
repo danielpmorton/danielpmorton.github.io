@@ -1,3 +1,17 @@
+- id: elastiqp
+  title: "ElastiQP: An Always-Feasible QP Solver for Constrained Robot Control"
+  venue: In Submission, 2026
+  description: "An l1-relaxed QP solver for efficiently managing conflicting constraints"
+  github: "StanfordASL/elastiqp"
+  pypi: "elastiqp"
+  image: "elastiqp_logo_300px.png"
+  arxiv: "2609.19080"
+  authors:
+    - danielpmorton
+    - jonarriza
+    - zacm
+    - pavone
+
 - id: constrainedmimic
   title: "Constrained Whole-Body Tracking for Humanoid Robots"
   selected: true

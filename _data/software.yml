@@ -2,6 +2,8 @@
 # Software that is also a paper can point at its publications.yml entry with
 # `publication: <id>` instead of repeating the details.
 
+- publication: elastiqp
+
 - publication: frax
 
 - id: cbfpy
