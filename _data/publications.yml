@@ -17,11 +17,10 @@
   selected: true
   venue: CoRL, 2026
   description: "Optimization-based (CBF) constraints for RL-based humanoid whole-body control, enabling runtime-specified safety without retraining the base policy"
+  github: "StanfordASL/constrainedmimic"
   # project_page: TODO
-  # github: TODO
   arxiv: "2606.00374"
   image: constrainedmimic.jpg
-  # image_mouseover: TODO.mp4
   authors:
     - danielpmorton
     - pmohnot
@@ -31,7 +30,7 @@
   title: "frax: Fast Robot Kinematics and Dynamics in JAX"
   venue: ICRA Workshop on Frontiers of Optimization for Robotics, 2026
   description: "Fast robot dynamics on CPU, GPU, and TPU, with automatic differentiation support, in Python"
-  github: "danielpmorton/frax"
+  github: "StanfordASL/frax"
   pypi: "frax"
   image: "frax_logo_250px.png"
   arxiv: "2604.04310"
