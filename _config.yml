@@ -33,7 +33,7 @@ description: >-
   While I've worked on a wide range of robot platforms in my PhD, my current focus is on **safety and reinforcement learning for humanoid robots**,
   with the goal of reducing the inherent tradeoffs between what makes a robot *safe* and what makes a robot *useful*. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://danielpmorton.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://danielpmorton.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: danielpmorton
 linkedin_username: danielpmorton
 github_username: danielpmorton
