@@ -18,7 +18,7 @@
   venue: CoRL, 2026
   description: "Optimization-based (CBF) constraints for RL-based humanoid whole-body control, enabling runtime-specified safety without retraining the base policy"
   github: "StanfordASL/constrainedmimic"
-  # project_page: TODO
+  project_page: https://stanfordasl.github.io/constrainedmimic/
   arxiv: "2606.00374"
   image: constrainedmimic.jpg
   authors:
